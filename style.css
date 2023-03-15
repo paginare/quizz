@@ -98,12 +98,38 @@ a {
   padding-bottom: 20px;
 }
 
+#secao2-interna {
+  padding-left: 60px;
+}
+
 .icones-secao2 {
   width: 135px;
   height: 135px;
   padding: 5px;
 }
 
-#secao2-interna {
-  padding-left: 60px;
+#secao3 {
+  display: flex;
+  flex-direction: row;
+}
+
+#eficacia {
+}
+
+#eficacia h2 {
+  color: var(--texto-principal);
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 21px;
+  text-transform: uppercase;
+}
+
+#eficacia p {
+  color: var(--texto-padrao);
+  font-size: 16px;
+  padding-top: 8px;
+  padding-bottom: 17px;
+  font-weight: 300;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
