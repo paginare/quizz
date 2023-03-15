@@ -32,8 +32,8 @@ header #logo img {
 }
 
 #headline {
-  width: 500px;
-  padding: 5% 0 4% 8%;
+  width: 600px;
+  padding: 5% 0 4% 15%;
 }
 
 #headline h1 {
@@ -71,21 +71,39 @@ a {
   text-decoration: none;
 }
 
-#secao2 {
-  margin: 21px 8%;
+#secao2-principal {
+  display: flex;
+  flex-direction: row;
   color: var(--texto-secao);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  color: var(--texto-secao);
+  display: flex;
 }
 
-#secao2 h2 {
+#secao2-principal h2 {
   font-size: 40px;
   font-weight: 300;
   line-height: 126%;
   padding-top: 120px;
 }
 
-#secao2 p {
+#secao2-principal p {
   color: var(--texto-padrao);
   font-size: 16px;
+  padding-top: 8px;
+  padding-bottom: 17px;
+  font-weight: 300;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.icones-secao2 {
+  width: 135px;
+  height: 135px;
+  padding: 5px;
+}
+
+#secao2-interna {
+  padding-left: 60px;
 }
