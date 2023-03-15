@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+
+:root {
+  --texto-principal: #a4367f;
+  --bg-desktop: url(./assets/bg-desktop.jpg);
+}
+
+header #logo {
+  background: black;
+  height: 76px;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+header #logo img {
+  height: 19.28px;
+  margin-top: 28px;
+}
+
+#hero1 {
+  background: var(--bg-desktop) no-repeat top center/cover;
+}
+
+#headline {
+  width: 500px;
+  padding: 5% 0 4% 8%;
+}
+
+#headline h1 {
+  color: var(--texto-principal);
+  font-size: 36px;
+  font-weight: 300;
+}
+
+#headline h2 {
+  color: var(--texto-principal);
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 21px;
+  text-transform: uppercase;
+}
+
+#headline p {
+  padding-top: 8px;
+  color: var(--texto-principal);
+  font-weight: 300;
+  font-size: 16px;
+}
+
+#headline ul li {
+  list-style-type: none;
+  padding: 11px 36px;
+  background-color: #2db369;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+
+a {
+  text-decoration: none;
+}
