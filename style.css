@@ -150,7 +150,7 @@ a {
 }
 
 #teste1 span {
-  padding-left: 37%;
+  padding-left: 35%;
 }
 
 .progress {
@@ -179,6 +179,60 @@ a {
     width: 0;
   }
   100% {
-    width: 68%;
+    width: 77%;
+  }
+}
+
+.progress-value1 {
+  animation: load1 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #ff1880;
+  border-radius: 100px;
+  background: #ff1880;
+  height: 10px;
+  width: 0;
+}
+
+@keyframes load1 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+.progress-value2 {
+  animation: load2 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #ff1880;
+  border-radius: 100px;
+  background: #ff1880;
+  height: 10px;
+  width: 0;
+}
+
+@keyframes load2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 87%;
+  }
+}
+
+.progress-value3 {
+  animation: load3 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #ff1880;
+  border-radius: 100px;
+  background: #ff1880;
+  height: 10px;
+  width: 0;
+}
+
+@keyframes load3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 83%;
   }
 }
