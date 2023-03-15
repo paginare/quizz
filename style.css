@@ -10,6 +10,8 @@
 :root {
   --texto-principal: #a4367f;
   --bg-desktop: url(./assets/bg-desktop.jpg);
+  --texto-secao: #ff1880;
+  --texto-padrao: #000000;
 }
 
 header #logo {
@@ -67,4 +69,23 @@ header #logo img {
 
 a {
   text-decoration: none;
+}
+
+#secao2 {
+  margin: 21px 8%;
+  color: var(--texto-secao);
+  display: flex;
+  justify-content: space-between;
+}
+
+#secao2 h2 {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 126%;
+  padding-top: 120px;
+}
+
+#secao2 p {
+  color: var(--texto-padrao);
+  font-size: 16px;
 }
